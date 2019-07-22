@@ -1,8 +1,24 @@
-body:after {
-    content: 'Created by Daniele Zecchin';
-    display: block;
-    visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
+@import 'colors';
+
+.header .navbar-inverse {
+    background-color: $color--green !important;
+}
+
+
+
+#cc_store_logo_img {
+    background-image: url("../images/partesa-logo.png");
+}
+
+
+
+/* rimuovo barra nera sotto al menù */
+.col-md-3.col-xs-12.pull-right.cc_col_search .nav.cc_nav {
+    display:none;
+}
+
+
+
+.menu_container.cc_menu_container {
+    display:none;
 }
