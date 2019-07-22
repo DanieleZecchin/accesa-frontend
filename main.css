@@ -2,6 +2,10 @@
   background-color: #205527 !important;
 }
 
+.cc_navbar_row span {
+  font-weight: bold;
+}
+
 #cc_store_logo_img {
   background-image: url("../images/partesa-logo.png");
 }
