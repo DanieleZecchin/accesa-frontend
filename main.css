@@ -10,6 +10,33 @@
   top: 10px;
 }
 
+.panel-title {
+  color: #205527;
+}
+
+.cc_forgot_pass {
+  color: #9ee19e;
+}
+
+input.form-control {
+  border-radius: .3em;
+}
+
+.btn.btn-default {
+  border-radius: .4em;
+  background-color: green;
+  font-weight: bold;
+}
+
+.alert {
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.alert-danger {
+  color: #eb1f22;
+}
+
 .col-md-3.col-xs-12.pull-right.cc_col_search .nav.cc_nav {
   display: none;
 }

@@ -1,7 +1,7 @@
 @import 'colors';
 
 //
-// Navbar in alto verde
+// Navbar
 //
 
 .header .navbar-inverse {
@@ -16,23 +16,61 @@
 }
 
 #logoUrl {
-    top:10px;
+    top: 10px;
 }
 
 //
-// Rimuovo barra nera sotto al menù
+// Main content
+//
+
+.panel-title {
+    color: $color--green;
+}
+
+// Link
+.cc_forgot_pass {
+    color: $color--light-green;
+}
+
+// Input boxes
+input.form-control {
+    border-radius: .3em;
+}
+
+//Main buttons
+.btn.btn-default {
+	border-radius: .4em;
+	background-color: green;
+	font-weight: bold;
+}
+
+//
+// Alert messages
+//
+
+.alert {
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.alert-danger {
+    color: $color--red;
+}
+
+//
+// Hide widgets
 //
 
 .col-md-3.col-xs-12.pull-right.cc_col_search .nav.cc_nav {
-    display:none;
+    display: none;
 }
 
 .menu_container.cc_menu_container {
-    display:none;
+    display: none;
 }
 
 .cc_home_slider {
-    display:none;
+    display: none;
 }
 
 .cc_register_account {
