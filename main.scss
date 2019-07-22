@@ -47,6 +47,10 @@ input.form-control {
 	background-color: $color--green;
 	font-weight: bold;
 }
+.btn.btn-default:hover {
+	color: white;
+	letter-spacing: .2em;
+}
 
 //
 // Alert messages

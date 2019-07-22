@@ -32,6 +32,11 @@ input.form-control {
   font-weight: bold;
 }
 
+.btn.btn-default:hover {
+  color: white;
+  letter-spacing: .2em;
+}
+
 .alert {
   font-weight: bold;
   background-color: transparent;
