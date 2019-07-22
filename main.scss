@@ -1,24 +1,36 @@
 @import 'colors';
 
+//
+// Navbar in alto verde
+//
+
 .header .navbar-inverse {
     background-color: $color--green !important;
 }
 
-
-
+//
+// Logo
+//
 #cc_store_logo_img {
     background-image: url("../images/partesa-logo.png");
 }
 
+#logoUrl {
+    top:10px;
+}
 
+//
+// Rimuovo barra nera sotto al menù
+//
 
-/* rimuovo barra nera sotto al menù */
 .col-md-3.col-xs-12.pull-right.cc_col_search .nav.cc_nav {
     display:none;
 }
 
-
-
 .menu_container.cc_menu_container {
+    display:none;
+}
+
+.cc_home_slider {
     display:none;
 }

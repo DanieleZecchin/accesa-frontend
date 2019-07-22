@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .header .navbar-inverse {
   background-color: #205527 !important;
 }
@@ -7,12 +6,19 @@
   background-image: url("../images/partesa-logo.png");
 }
 
-/* rimuovo barra nera sotto al menù */
+#logoUrl {
+  top: 10px;
+}
+
 .col-md-3.col-xs-12.pull-right.cc_col_search .nav.cc_nav {
   display: none;
 }
 
 .menu_container.cc_menu_container {
+  display: none;
+}
+
+.cc_home_slider {
   display: none;
 }
 /*# sourceMappingURL=main.css.map */
