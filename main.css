@@ -14,7 +14,7 @@
   color: #205527;
 }
 
-.cc_forgot_pass {
+.cc_forgot_pass, .cc_forgot_pass:hover {
   color: #227621;
 }
 

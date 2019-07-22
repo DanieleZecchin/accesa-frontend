@@ -8,6 +8,7 @@
     background-color: $color--green !important;
 }
 
+
 //
 // Logo
 //
@@ -28,7 +29,7 @@
 }
 
 // Link
-.cc_forgot_pass {
+.cc_forgot_pass, .cc_forgot_pass:hover {
     color: $color--light-green;
 }
 
