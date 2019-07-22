@@ -2,7 +2,8 @@
   background-color: #205527 !important;
 }
 
-.cc_navbar_row span {
+.cc_navbar_row span,
+.cc_navbar_row a {
   font-weight: bold;
 }
 
@@ -18,7 +19,8 @@
   color: #205527;
 }
 
-.cc_forgot_pass, .cc_forgot_pass:hover {
+.cc_forgot_pass,
+.cc_forgot_pass:hover {
   color: #227621;
 }
 
