@@ -28,6 +28,10 @@ input.form-control {
   border-radius: .3em;
 }
 
+.validation-error input.form-control {
+  border-color: #eb1f22;
+}
+
 .btn.btn-default {
   border-radius: .4em;
   background-color: #205527;
@@ -61,6 +65,10 @@ input.form-control {
 }
 
 .cc_register_account {
+  display: none;
+}
+
+#cartHeader {
   display: none;
 }
 /*# sourceMappingURL=main.css.map */
