@@ -1,37 +1,20 @@
-.header .navbar-inverse {
-  background-color: #205527 !important;
-}
+/*
 
-.cc_navbar_row span,
-.cc_navbar_row a {
-  font-weight: bold;
-}
+  General settings.
+  Output should not be style rules, but could be CSS variables.
 
-#cc_store_logo_img {
-  background-image: url("../prt/resource/1563792203000/ThemePartesa2/images/partesa-logo.png");
-}
+  Example: color codes.
 
-#logoUrl {
-  top: 10px;
-}
+  Avoid  : CSS style rules.
 
-.panel-title {
-  color: #205527;
-}
+*/
+/*
 
-.cc_forgot_pass,
-.cc_forgot_pass:hover {
-  color: #227621;
-}
+  Common components, usable everywhere, can have any position on the page.
 
-input.form-control {
-  border-radius: .3em;
-}
+  Example: buttons, input boxes, headers.
 
-.validation-error input.form-control {
-  border-color: #eb1f22;
-}
-
+*/
 .btn.btn-default {
   border-radius: .4em;
   font-weight: bold;
@@ -47,6 +30,26 @@ input.form-control {
           box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.5);
 }
 
+.panel-title {
+  color: #205527;
+}
+
+input.form-control {
+  border-radius: .3em;
+}
+
+.validation-error input.form-control {
+  border-color: #eb1f22;
+}
+
+/*
+
+  Styles for common sections that always appear in the same position
+  on different pages.
+
+  Examples: company logo, navigation bar, footer.
+
+*/
 .alert {
   font-weight: bold;
   background-color: transparent;
@@ -79,5 +82,34 @@ input.form-control {
 
 .container-fluid.navbar-inverse.cc_navbar-inverse {
   display: none;
+}
+
+#cc_store_logo_img {
+  background-image: url("../prt/resource/1563792203000/ThemePartesa2/images/partesa-logo.png");
+}
+
+#logoUrl {
+  top: 10px;
+}
+
+.header .navbar-inverse {
+  background-color: #205527 !important;
+}
+
+.cc_navbar_row span,
+.cc_navbar_row a {
+  font-weight: bold;
+}
+
+/*
+
+  Styles for specific pages.
+
+  Styles in this folder do not apply to common widgets or sections.
+
+*/
+.cc_forgot_pass,
+.cc_forgot_pass:hover {
+  color: #227621;
 }
 /*# sourceMappingURL=main.css.map */
