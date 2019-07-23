@@ -42,6 +42,12 @@ input.form-control {
   border-color: #eb1f22;
 }
 
+.cc_content_body .panel {
+  border-bottom: none;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
 /*
 
   Styles for common sections that always appear in the same position
@@ -111,5 +117,13 @@ input.form-control {
 .cc_forgot_pass,
 .cc_forgot_pass:hover {
   color: #227621;
+}
+
+.cc_myaccount_profile .cc_myaccount_information {
+  display: none;
+}
+
+.cc_myaccount_profile .cc_myaccount_contact_information {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */
