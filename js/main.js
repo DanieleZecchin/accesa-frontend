@@ -11,12 +11,18 @@ $(function() {
     if ($('.cc_forgot_password_panel').length) {
 
       $('.cc_forgot_password_panel input[type="text"]').on('keyup', function() {
-
-        if (!isValidEmail($('.cc_forgot_password_panel input[type=text]').val()))
-          $('.cc_forgot_password_panel input[type=submit]').prop('disabled', true);
-        else
-          $('.cc_forgot_password_panel input[type=submit]').prop('disabled', false);
+        checkEmail();
       });
+
+      checkEmail();
+    }
+
+    function checkEmail() {
+      
+      if (!isValidEmail($('.cc_forgot_password_panel input[type=text]').val()))
+        $('.cc_forgot_password_panel input[type=submit]').prop('disabled', true);
+      else
+        $('.cc_forgot_password_panel input[type=submit]').prop('disabled', false);
     }
 
 });
