@@ -72,4 +72,8 @@ input.form-control {
 #cartHeader {
   display: none;
 }
+
+.container-fluid.navbar-inverse.cc_navbar-inverse {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
