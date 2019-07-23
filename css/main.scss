@@ -42,6 +42,10 @@
 input.form-control {
     border-radius: .3em;
 }
+.validation-error input.form-control {
+    border-color: $color--red;
+}
+
 
 //Main buttons
 .btn.btn-default {
@@ -66,6 +70,8 @@ input.form-control {
 .alert-danger {
     color: $color--red;
 }
+
+//
 
 //
 // Hide widgets
