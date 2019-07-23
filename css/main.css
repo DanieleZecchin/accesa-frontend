@@ -67,4 +67,8 @@ input.form-control {
 .cc_register_account {
   display: none;
 }
+
+#cartHeader {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
