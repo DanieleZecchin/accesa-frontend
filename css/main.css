@@ -17,13 +17,12 @@
 */
 .btn.btn-default {
   border-radius: .4em;
-  font-weight: bold;
   background-color: #205527;
 }
 
 .btn.btn-default:hover {
   color: white;
-  text-shadow: 1px 1px 2px  black, 1px 1px 5px  white, 1px 1px 10px white, 1px 1px 20px white, 1px 1px 30px white;
+  text-shadow: 1px 1px 2px  black, 1px 1px 5px  white, 1px 1px 10px white, 1px 1px 20px white, 1px 1px 30px white;
 }
 
 .btn.btn-default:disabled {
@@ -32,6 +31,11 @@
 
 .panel-title {
   color: #205527;
+}
+
+.cc_content_body .panel h3.cc_title {
+  color: #205527;
+  font-weight: normal;
 }
 
 input.form-control {
@@ -46,6 +50,14 @@ input.form-control {
   border-bottom: none;
   padding-bottom: 10px;
   margin-bottom: 30px;
+}
+
+.cc_body {
+  color: #205527;
+}
+
+.cc_body p > span[class$="_label"] {
+  font-weight: bold;
 }
 
 /*

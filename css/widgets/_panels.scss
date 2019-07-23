@@ -4,3 +4,11 @@
 	padding-bottom: 10px;
 	margin-bottom: 30px;
 }
+
+.cc_body {
+	color: $color--green;
+}
+
+.cc_body p > span[class$="_label"] {
+	font-weight: bold;
+}
