@@ -18,6 +18,7 @@
 .btn.btn-default {
   border-radius: .4em;
   background-color: #205527;
+  font-weight: bold;
 }
 
 .btn.btn-default:hover {
@@ -31,11 +32,12 @@
 
 .panel-title {
   color: #205527;
+  font-weight: bold;
 }
 
 .cc_content_body .panel h3.cc_title {
   color: #205527;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 input.form-control {
