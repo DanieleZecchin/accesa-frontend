@@ -209,6 +209,10 @@ input.form-control {
   color: #227621;
 }
 
+.cc_forgot_password_panel a {
+  color: #227621;
+}
+
 .cc_myaccount_profile .cc_myaccount_information {
   display: none;
 }
