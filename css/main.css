@@ -15,6 +15,25 @@
   Example: buttons, input boxes, headers.
 
 */
+.action {
+  color: #eb1f22;
+  border: none;
+  background-color: transparent;
+  padding-bottom: 0;
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.action:hover {
+  text-decoration: none;
+}
+
+.action:not(:first-of-type) {
+  border-left: 2px solid #eb1f22;
+}
+
 .btn.btn-default {
   border-radius: .4em;
   background-color: #205527;
@@ -64,6 +83,29 @@ input.form-control {
 
 .cc_body p > span[class$="_label"] {
   font-weight: bold;
+}
+
+.table {
+  color: #205527;
+}
+
+.data--user-name {
+  text-align: left;
+}
+
+.data--is-main-user {
+  text-align: center;
+}
+
+.data--role {
+  text-align: left;
+}
+
+.data--record-actions {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 /*

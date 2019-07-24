@@ -1,0 +1,20 @@
+
+.action {
+    color: $color--red;
+    border: none;
+    background-color: transparent;
+    padding-bottom: 0;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.action:hover {
+    text-decoration: none;
+}
+
+
+.action:not(:first-of-type) {
+    border-left: 2px solid $color--red;
+}
