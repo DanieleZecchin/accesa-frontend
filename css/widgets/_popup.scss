@@ -1,6 +1,6 @@
 #myAccountForm div.cc_myaccount_edit_user_information {
     position: fixed;
-    z-index: 1;
+    z-index: 1001; // Perchè il logo è z-index: 1000
     width: 400px;
     height: 400px;
     max-width: 100%;

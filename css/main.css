@@ -87,7 +87,7 @@ input.form-control {
 
 #myAccountForm div.cc_myaccount_edit_user_information {
   position: fixed;
-  z-index: 1;
+  z-index: 1001;
   width: 400px;
   height: 400px;
   max-width: 100%;
