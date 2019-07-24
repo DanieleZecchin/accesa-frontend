@@ -30,6 +30,10 @@
   background-color: grey;
 }
 
+.form-group > label {
+  color: #205527;
+}
+
 .panel-title {
   color: #205527;
   font-weight: bold;
