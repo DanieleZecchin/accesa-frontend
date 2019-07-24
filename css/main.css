@@ -42,7 +42,7 @@
 
 .btn.btn-default:hover {
   color: white;
-  text-shadow: 1px 1px 2px  black, 1px 1px 5px  white, 1px 1px 10px white, 1px 1px 20px white, 1px 1px 30px white;
+  text-shadow: 1px 1px 2px  black, 1px 1px 5px  white, 1px 1px 10px white, 1px 1px 20px white, 1px 1px 30px white;
 }
 
 .btn.btn-default:disabled {
@@ -83,6 +83,24 @@ input.form-control {
 
 .cc_body p > span[class$="_label"] {
   font-weight: bold;
+}
+
+#myAccountForm div.cc_myaccount_edit_user_information {
+  position: fixed;
+  z-index: 1;
+  width: 400px;
+  height: 400px;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 8px;
 }
 
 .table {
