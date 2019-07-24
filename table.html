@@ -1,0 +1,44 @@
+<head>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <table class="table table--user-management">
+        <thead>
+            <tr class="table__head">
+                <th class="table__header data--user-name">Nome, Cognome</th>
+                <th class="table__header data--is-main-user">Utente principale</th>
+                <th class="table__header data--role">Ruolo</th>
+                <th class="table__header data--record-actions"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table__row table__row--is-main-user">
+                <td class="table__data data--user-name">Mario Rossi</td>
+                <td class="table__data data--is-main-user">✓</td>
+                <td class="table__data data--role">Admin</td>
+                <td class="table__data data--record-actions">
+                    <button class="action action--edit">Modifica</button>
+                </td>
+            </tr>
+            <tr class="table__row">
+                <td class="table__data data--user-name">Beatrice Colongioli</td>
+                <td class="table__data data--is-main-user"></td>
+                <td class="table__data data--role">Buyer</td>
+                <td class="table__data data--record-actions">
+                    <button class="action action--edit">Modifica</button>
+                    <button class="action action--revoke">Revoca</button>
+                </td>
+            </tr>
+            <tr class="table__row">
+                <td class="table__data data--user-name">Nicola Scannapieco</td>
+                <td class="table__data data--is-main-user"></td>
+                <td class="table__data data--role">Buyer</td>
+                <td class="table__data data--record-actions">
+                    <button class="action action--edit">Modifica</button>
+                    <button class="action action--edit">Revoca</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>

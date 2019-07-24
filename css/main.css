@@ -89,6 +89,18 @@ input.form-control {
   color: #205527;
 }
 
+.table__header {
+  color: lightgreen;
+}
+
+.table__header.data--record-actions {
+  visibility: hidden;
+}
+
+.table__row {
+  border-bottom: none !important;
+}
+
 .data--user-name {
   text-align: left;
 }

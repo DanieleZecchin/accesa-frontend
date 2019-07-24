@@ -3,6 +3,19 @@
     color: $color--green;
 }
 
+.table__header {
+	color: lightgreen;
+}
+
+.table__header.data--record-actions {
+	visibility: hidden;
+}
+
+.table__row {
+	border-bottom: none !important;
+}
+
+
 .data--user-name {
     text-align: left;
 }
