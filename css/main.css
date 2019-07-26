@@ -42,7 +42,7 @@
 
 .btn.btn-default:hover {
   color: white;
-  text-shadow: 1px 1px 2px  black, 1px 1px 5px  white, 1px 1px 10px white, 1px 1px 20px white, 1px 1px 30px white;
+  text-shadow: 1px 1px 2px  black, 1px 1px 5px  white, 1px 1px 10px white, 1px 1px 20px white, 1px 1px 30px white;
 }
 
 .btn.btn-default:active {
@@ -73,6 +73,11 @@ input.form-control {
 
 .validation-error input.form-control {
   border-color: #eb1f22;
+}
+
+.may-be-wide {
+  max-width: 100%;
+  overflow-x: auto;
 }
 
 .cc_content_body .panel {
