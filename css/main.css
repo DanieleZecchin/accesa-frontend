@@ -121,6 +121,21 @@ input.form-control {
   margin: 0;
 }
 
+.modal-content.cc_modal_content {
+  border-radius: 8px;
+  -webkit-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+}
+
+.modal-backdrop.in {
+  filter: alpha(opacity=30);
+  opacity: .3;
+}
+
+.modal-backdrop {
+  background-color: #205527;
+}
+
 .table {
   color: #205527;
 }

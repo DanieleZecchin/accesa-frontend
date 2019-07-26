@@ -31,3 +31,19 @@
 .popup__content alert {
     margin: 0;
 }
+
+// Fix popup style di "Aggiungi Utente" in "Gestione Utenze" per farlo uguale al nostro (sopra a questo file)
+
+.modal-content.cc_modal_content {
+    border-radius: 8px;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+}
+
+.modal-backdrop.in {
+    filter:alpha(opacity=30);
+    opacity:.3;
+}
+
+.modal-backdrop {
+    background-color: $color--green;
+}
