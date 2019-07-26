@@ -215,6 +215,10 @@ input.form-control {
   font-weight: bold;
 }
 
+.cc_right_col.right_column {
+  z-index: -1;
+}
+
 /*
 
   Styles for specific pages.
