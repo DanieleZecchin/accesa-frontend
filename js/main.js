@@ -25,12 +25,14 @@ $(function() {
         $('.cc_forgot_password_panel input[type=submit]').prop('disabled', false);
     }
 
+});
+
+$(window).on("load", function() {
     // Hide Account in Top Navbar if not logged in
     if ($('body').find('a.goToLogin.cc_goto_login').length) {
 
       $('li.cc_my_account').hide();
     }
-
 });
 
 function isValidEmail(email) {
