@@ -26,7 +26,7 @@ $(function() {
     }
 
     // Hide Account in Top Navbar if not logged in
-    if (!$('a.cc_do_logout').length) {
+    if ($('a.goToLogin.cc_goto_login').length) {
 
       $('li.cc_my_account').hide();
     }
