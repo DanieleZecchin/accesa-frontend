@@ -235,9 +235,19 @@ input.form-control {
   font-weight: bold;
 }
 
+.cc_myaccount_nav_list a {
+  text-transform: none;
+  color: #205527;
+}
+
 #MyAccount_navSection ul li:nth-child(3),
 #MyAccount_navSection ul li:nth-child(4) {
   text-indent: 30px;
+}
+
+#MyAccount_navSection ul li:nth-child(3) a,
+#MyAccount_navSection ul li:nth-child(4) a {
+  font-weight: normal;
 }
 
 /*
