@@ -5,6 +5,10 @@
 }
 
 .cc_content_body .panel h3.cc_title {
-    color: $color--green ;
+    color: $color--green;
     font-weight: bold;
+}
+
+h2, h4, .modal-title {
+    color: $color--green;
 }
