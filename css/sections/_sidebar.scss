@@ -3,6 +3,10 @@
     color: $color--green;
 }
 
+#MyAccount_navSection ul li a.not_clickable {
+    pointer-events: none;
+}
+
 #MyAccount_navSection ul li:nth-child(3),
 #MyAccount_navSection ul li:nth-child(4) {
   text-indent: 30px;
