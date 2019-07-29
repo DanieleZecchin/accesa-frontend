@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "checkJs": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "strict": true,
+        "noEmit": true,
+    },
+    "include": [
+        "js/**/*"
+    ],
+    "exclude": [
+        "node_modules/**/*"
+    ]
+}
