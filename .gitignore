@@ -1,0 +1,26 @@
+# App
+dist
+dw.configs.json
+dw.configs.json.default
+dw.json
+src/package-lock.json
+
+# Node.js
+src/node_modules
+
+# IDE
+.vscode
+.jshintrc
+
+# Others
+app_experiment
+assets_experiment
+gulp.config.exp.json
+gulp.config.bak.json
+*.zip
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
