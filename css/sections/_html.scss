@@ -1,0 +1,5 @@
+// Escludo Font Awesome altrimenti si sconfigurano le icone
+
+*:not(.fa) {
+    font-family: 'Open Sans', sans-serif !important;
+}

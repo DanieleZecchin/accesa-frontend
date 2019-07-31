@@ -42,7 +42,7 @@
 
 .btn.btn-default:hover {
   color: white;
-  text-shadow: 1px 1px 2px  black, 1px 1px 5px  white, 1px 1px 10px white, 1px 1px 20px white, 1px 1px 30px white;
+  text-shadow: 1px 1px 2px  black, 1px 1px 5px  white, 1px 1px 10px white, 1px 1px 20px white, 1px 1px 30px white;
 }
 
 .btn.btn-default:active {
@@ -222,12 +222,20 @@ input.form-control {
   display: none;
 }
 
+*:not(.fa) {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
 #cc_store_logo_img {
   background-image: url("../prt/resource/1563792203000/ThemePartesa2/images/partesa-logo.png");
 }
 
 #logoUrl {
   top: 10px;
+}
+
+.cc_main_content_col {
+  margin-bottom: 3rem;
 }
 
 .header .navbar-inverse {
