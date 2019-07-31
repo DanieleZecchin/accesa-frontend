@@ -1,0 +1,115 @@
+
+ <h2 class="title">Gestione Utenze</h2>
+ <h4>Utenti Aziendali</h4>
+ <div class="alert alert-error messagingSection-orderhistory-Error" style="display: none"></div>
+ <div class="alert alert-info messagingSection-orderhistory-Info" style="display: none"></div>
+ <div class="main_content_large_right_container"><span id="MyAccount:cc_tmpl_TwoColRD:cc_tmpl_Storefront:j_id303:j_id304:j_id319:j_id320:j_id322">
+
+    <table class="table table--user-management">
+        <thead>
+            <tr class="table__head">
+                <th class="table__header data--user-name">Nome, Cognome</th>
+                <th class="table__header data--is-main-user">Utente Principale</th>
+                <th class="table__header data--role">Ruolo</th>
+                <th class="table__header data--record-actions"></th>
+            </tr>
+        </thead>
+        <tbody>
+         	<tr class="table__row table__row--is-main-user">
+                <td class="table__data data--user-name">Bragagnolo&nbsp;Bragagnolo</td>
+                <td class="table__data data--is-main-user"> </td>
+                <td class="table__data data--role">Amministratore</td>
+                <td class="table__data data--record-actions">
+                    <button class="action action--editContact" data-editrole="1" data-email="mattia.bragagnolo@accenture.com" data-idedit="0036E00000iOz6pQAC" data-last="Bragagnolo" data-maincontact="false" data-mobile="1234567890" data-name="Mattia" data-phone="7777777777" data-rolestring="Amministratore">Modifica</button>
+                	<button class="action action--revoke">Revoca</button>
+                </td>
+            </tr>
+         	<tr class="table__row table__row--is-main-user">
+                <td class="table__data data--user-name">callegari&nbsp;callegari</td>
+                <td class="table__data data--is-main-user"> </td>
+                <td class="table__data data--role">Amministratore</td>
+                <td class="table__data data--record-actions">
+                    <button class="action action--editContact" data-editrole="1" data-email="acallegari@hotmail.ot" data-idedit="0036E00000jqJhJQAU" data-last="callegari" data-maincontact="false" data-mobile="111111111111" data-name="aberto" data-phone="88888888888" data-rolestring="Amministratore">Modifica</button>
+                	<button class="action action--revoke">Revoca</button>
+                </td>
+            </tr>
+         	<tr class="table__row table__row--is-main-user">
+                <td class="table__data data--user-name">coviello&nbsp;coviello</td>
+                <td class="table__data data--is-main-user">✓ </td>
+                <td class="table__data data--role">Amministratore</td>
+                <td class="table__data data--record-actions">
+                    <button class="action action--editContact" data-editrole="1" data-email="ancoviello@gmail.com" data-idedit="0036E00000jpwPsQAI" data-last="coviello" data-maincontact="true" data-mobile="1234567890" data-name="norma" data-phone="1234567890" data-rolestring="Amministratore">Modifica</button>
+                	<button class="action action--revoke">Revoca</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+               <button class="btn btn-default register cc_register_modal" data-target="#wishModal" data-toggle="modal" type="button">
+               Aggiungi Utente
+               </button></span><span id="MyAccount:cc_tmpl_TwoColRD:cc_tmpl_Storefront:j_id303:j_id304:j_id319:j_id320:j_id337">
+    </span><span id="MyAccount:cc_tmpl_TwoColRD:cc_tmpl_Storefront:j_id303:j_id304:j_id319:j_id320:j_id340">
+     <div aria-labelledby="CartWishLabel" class="modal fade cc_modal cc_cart_wish_modal in" id="createAccountMod" role="dialog" style="display: block; padding-left: 17px;" tabindex="-1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content cc_modal_content">
+                <div class="modal-header cc_modal_header">
+                    <button aria-label="Close" class="close cc_close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
+                        <h4 class="modal-title cc_modal_title" id="CartWishLabel">Dettagli Nuovo Utente</h4>
+                        </div>
+                        <div class="modal-body cc_modal_body">
+       <div class="hiddenidsfdc" style="display:none"></div>
+       <form class="cc_edit_account_form popup" id="myAccountForm">
+
+      <div class="panel panel-default cc_panel cc_myaccount_edit_user_information">
+
+       <div class="panel-body cc_body cc_myaccount_edit_user">
+             <div class="error_update_contact cc_error_update_contact" style="display: none"></div>
+             <div class="form-group">
+         <label class="cc_contact_input_other_firstname_label" for="userFirstName">Nome *</label>
+         <input class="form-control contactInput cc_contact_input_firstname" id="edituserFirstName" name="edituserFirstName" type="text">
+        </div>
+        <div class="form-group">
+         <label class="cc_contact_input_lastname_label" for="userLastName">Cognome *</label>
+         <input class="form-control contactInput cc_contact_input_lastname" id="edituserLastName" name="edituserLastName" type="text">
+        </div>
+        <div class="form-group">
+         <label class="cc_contact_input_phone_label" for="userPhone">Telefono</label>
+         <input class="form-control contactInput cc_contact_input_phone" id="edituserPhone" name="edituserPhone" type="tel">
+        </div>
+        <div class="form-group">
+         <input class="form-control contactInput cc_contact_input_username" id="username" name="username" type="hidden" value="">
+        </div>
+        <div class="form-group">
+         <label class="cc_contact_input_email_label" for="email">Email *</label>
+         <input class="form-control contactInput cc_contact_input_email" id="editemail" name="editemail" type="email">
+        </div>
+          <div class="form-group">
+         <label class="cc_contact_input_email_label" for="email">Cellulare</label>
+         <input class="form-control contactInput cc_contact_input_email" id="editMobilePhone" name="editMobilePhone" type="tel">
+        </div>
+        <div class="form-group">
+         <label class="edit_cc_contact_input_currencycode_label" for="currencyCode">Ruolo *</label>
+         <select class="form-control edit_cc_currency_code" name="RoleCode">
+            <option value="1">Amministratore</option>
+
+         </select>
+        </div>
+       </div>
+         <div class="form-group form-check">
+             <input class="form-check-input" id="prt_MainContact__c" type="checkbox">
+             <label class="form-check-label" for="prt_MainContact__c">Utente Principale</label>
+          </div>
+      <div class="form-group">
+      <input class="btn btn-default btn-sm closeEditProfile cc_close_edit_profile" type="button" value="Indietro">
+      <input class="btn btn-default cc_contact_edit_profile" type="button" value="Salva">
+     </div>
+      </div>
+
+     </form>
+
+                 </div>
+
+             </div>
+         </div>
+   </div></span>
+</div>
