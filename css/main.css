@@ -36,13 +36,13 @@
 
 .btn.btn-default {
   border-radius: .4em;
-  background-color: #205527;
+  background-color: #09843b;
   font-weight: bold;
 }
 
 .btn.btn-default:hover {
   color: white;
-  text-shadow: 1px 1px 2px  black, 1px 1px 5px  white, 1px 1px 10px white, 1px 1px 20px white, 1px 1px 30px white;
+  text-shadow: 1px 1px 2px  black, 1px 1px 5px  white, 1px 1px 10px white, 1px 1px 20px white, 1px 1px 30px white;
 }
 
 .btn.btn-default:active {
@@ -54,21 +54,21 @@
 }
 
 .form-group > label {
-  color: #205527;
+  color: #09843b;
 }
 
 .panel-title {
-  color: #205527;
+  color: #09843b;
   font-weight: bold;
 }
 
 .cc_content_body .panel h3.cc_title {
-  color: #205527;
+  color: #09843b;
   font-weight: bold;
 }
 
 h2, h4, .modal-title {
-  color: #205527;
+  color: #09843b;
 }
 
 input.form-control {
@@ -91,7 +91,7 @@ input.form-control {
 }
 
 .cc_body {
-  color: #205527;
+  color: #09843b;
 }
 
 .cc_body p > span[class$="_label"] {
@@ -104,7 +104,7 @@ input.form-control {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(32, 85, 39, 0.3);
+  background-color: rgba(9, 132, 59, 0.3);
   z-index: 1001;
 }
 
@@ -142,11 +142,11 @@ input.form-control {
 }
 
 .modal-backdrop {
-  background-color: #205527;
+  background-color: #09843b;
 }
 
 .table {
-  color: #205527;
+  color: #09843b;
 }
 
 .table__header {
@@ -222,6 +222,10 @@ input.form-control {
   display: none;
 }
 
+*:not(.fa) {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
 #cc_store_logo_img {
   background-image: url("../prt/resource/1563792203000/ThemePartesa2/images/partesa-logo.png");
 }
@@ -235,7 +239,7 @@ input.form-control {
 }
 
 .header .navbar-inverse {
-  background-color: #205527 !important;
+  background-color: #09843b !important;
 }
 
 .cc_navbar_row span,
@@ -245,7 +249,7 @@ input.form-control {
 
 .cc_myaccount_nav_list a {
   text-transform: none;
-  color: #205527;
+  color: #09843b;
 }
 
 #MyAccount_navSection ul li a.not_clickable {
