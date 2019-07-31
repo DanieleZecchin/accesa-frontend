@@ -129,6 +129,57 @@ function setupAndCleanup() {
     // console.log({ mutationList, observer });
     removeUserEditForm();
     sanitizePhoneAndMobileInputFieldsContinuously();
+    setupEmailFieldChecker();
+    setupRequiredFieldsChecker();
+}
+
+function setupRequiredFieldsChecker() {
+    document.querySelectorAll('form').forEach(form => {
+        var requiredFields = form.querySelectorAll('.form-control [required]');
+        form.addEventListener('submit', event => {
+            event.preventDefault();
+            requiredFields.forEach(field => {
+                var input = field as HTMLInputElement;
+                if (input.value == '') {
+                    input.classList.add('validation-error--empty');
+                } else {
+                    input.classList.remove('validation-error--empty');
+                }
+            });
+            var inputs = inputArray(form.querySelectorAll('.form-control'));
+            var isOk = inputs.every(isPopulated);
+            console.log(isOk ? '' : 'NOT', 'all required fields are populated')
+            return isOk;
+        });
+    });
+}
+
+function isPopulated(input: HTMLInputElement) {
+    return input.value.trim() != '';
+}
+function isPopulatedAndValid(input: HTMLInputElement) {
+    return (input.value.trim() != '') &&
+        (! input.classList.contains('validation-error'));
+}
+
+function inputArray(nodes: NodeList) {
+    var result: HTMLInputElement[] = [];
+    for (var i = 0; i < nodes.length; i++) {
+        result.push(nodes[i] as HTMLInputElement);
+    }
+    return result;
+}
+
+function setupEmailFieldChecker() {
+    $('input[type="email"]').on('keyup', function () {
+        var $this = $(this);
+        if (isValidEmail($this.val() + '')) {
+            $this.removeClass('validation-error');
+        }
+        else {
+            $this.addClass('validation-error');
+        }
+    });
 }
 
 function hideAccountLinkInTopNavbarIfNotLoggedIn() {
@@ -143,7 +194,6 @@ function hideAccountLinkInTopNavbarIfNotLoggedIn() {
 function sanitizePhoneAndMobileInputFieldsContinuously() {
     console.log('setting up phone number sanitizer');
     $('input[type="tel"]').off().on('keyup', function(event) {
-        console.log(event);
         var $this = $(this);
         $this.val(sanitizedPhoneNumber($this.val() + ''));
     });

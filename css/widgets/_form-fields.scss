@@ -2,3 +2,8 @@
 .form-group > label {
     color: $color--partesa-green;
 }
+
+
+.form-group .form-control.validation-error {
+    border-color: $color--red;
+}
