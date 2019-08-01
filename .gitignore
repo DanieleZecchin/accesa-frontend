@@ -24,3 +24,5 @@ gulp.config.bak.json
 
 # Windows
 Thumbs.db
+
+/node_modules
