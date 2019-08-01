@@ -7,9 +7,8 @@
         "strict": true,
         "module": "amd",
         "noEmitOnError": true,
-        //"outFile": "js/bundle.js",
-        "outDir": "js",
-        "watch": true,
+        "outFile": "dist\\PartesaTheme\\js\\uiproperties.js",
+        "watch": false,
         "rootDir": "ts",
         "target": "es5",
         "lib": [
