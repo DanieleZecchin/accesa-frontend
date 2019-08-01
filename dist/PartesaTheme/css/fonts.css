@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url('../fonts/ProximaNova-Reg-webfont.eot?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr');
+  src: url('../fonts/ProximaNova-Reg-webfont.eot?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr&iefix') format('eot'), url('../fonts/ProximaNova-Reg-webfont.woff?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr') format('woff'), url('../fonts/ProximaNova-Reg-webfont.ttf?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr') format('truetype'), url('../fonts/ProximaNova-Reg-webfont.svg?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr##webfonttLdMzI8n') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: url('../fonts/ProximaNova-Bold-webfont.eot?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr');
+  src: url('../fonts/ProximaNova-Bold-webfont.eot?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr&iefix') format('eot'), url('../fonts/ProximaNova-Bold-webfont.woff?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr') format('woff'), url('../fonts/ProximaNova-Bold-webfont.ttf?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr') format('truetype'), url('../fonts/ProximaNova-Bold-webfont.svg?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr##webfontgrewrCss') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VagRoundedBold';
+  src: url('../fonts/adobevagroundedstdbold.eot?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr');
+  src: url('../fonts/adobevagroundedstdbold.eot?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr&iefix') format('eot'), url('../fonts/adobevagroundedstdbold.woff?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr') format('woff'), url('../fonts/adobevagroundedstdbold.ttf?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr') format('truetype'), url('../fonts/adobevagroundedstdbold.svg?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr##webfontgrewrCss') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VagRoundedLight';
+  src: url('../fonts/adobevagroundedstdlight.eot?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr');
+  src: url('../fonts/adobevagroundedstdlight.eot?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr&iefix') format('eot'), url('../fonts/adobevagroundedstdlight.woff?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr') format('woff'), url('../fonts/adobevagroundedstdlight.ttf?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr') format('truetype'), url('../fonts/adobevagroundedstdlight.svg?orgId=00D6E0000004gaW&orgId=00D0V000001pWLQ&orgId=00D46000000XyKr##webfontgrewrCss') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
